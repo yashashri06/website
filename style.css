@@ -1,0 +1,121 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.bodycontainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    padding: 2rem 1rem;
+    margin: 0;
+   
+    /* background-color: aqua; */
+}
+
+a{
+    text-decoration: none;
+}
+
+.headercontainer{
+width: 100%;
+height: 18vh;
+margin-bottom: 1.5rem;
+padding: 1rem 2rem;
+/* background-color: aqua; */
+}
+
+.title{
+     margin-bottom: 1rem;
+     margin-top: 0rem;
+     font-size: 3.5rem;  
+   font-weight: 900;
+      text-align: center;
+}
+
+.desc{
+    text-align: center;
+    margin: 0;   
+    color: rgb(85, 84, 84);
+    font-size: 1.3rem;
+}
+
+.main_container{
+     width: 100%; 
+     display: flex;
+     justify-content: space-evenly;
+     gap: auto;
+}
+ 
+.cardcontainer{
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
+     border:1px solid black;
+     border-radius: 1rem;
+     width: 28%;
+     box-shadow: 5px 5px 5px black;
+}
+
+.imgcontainer{
+    position: relative;
+    overflow: hidden;
+    height: 17rem;
+}
+/* @media (min-width: 768px) {
+    .card_image_container{
+            height: 12rem;
+    }
+} */
+
+.image{
+    /* height: 50vh; */
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.cardcontainer:hover .image{
+    transform: scale(1.2);
+    transition-duration: 100ms;
+}
+
+.titlecontainer{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.food{
+color: black;
+}
+
+.card_anchor:hover .food{
+    color: rgb(95, 95, 255);
+}
+
+.ingredients{
+ font-size: 1.2 rem;
+ color: brown;
+ font-weight: 700;
+}
+
+.list{
+    font-size: 0.5 rem;
+    font-weight: 300;
+}
+ 
+.Procedure{
+ color: brown;
+}
+
+                       
